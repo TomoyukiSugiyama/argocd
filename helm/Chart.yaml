@@ -1,7 +1,0 @@
-annotations:
-  artifacthub.io/changes: |
-    - "[Fixed]: Add missing list verb to secret"
-apiVersion: v2
-appVersion: v3.2.9
-description: A Helm chart for Argo Workflows
-home: https://github.com/argoproj/argo-helm
