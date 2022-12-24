@@ -5,9 +5,6 @@ configs:
   # General Argo CD configuration
   ## Ref: https://github.com/argoproj/argo-cd/blob/master/docs/operator-manual/argocd-cm.yaml
 
-  # -- Repositories list to be used by applications
-  ## Creates a secret for each key/value specified below to create repositories
-  ## Note: the last example in the list would use a repository credential template, configured under "configs.repositoryCredentials".
   repositories:
     argocd-repo:
       url: https://github.com/TomoyukiSugiyama/argocd
