@@ -12,3 +12,9 @@ argocd の namespace が作成され、各種サービスが展開される。
 [公式手順](https://argo-cd.readthedocs.io/en/stable/getting_started/#3-access-the-argo-cd-api-server)に従って、
 Argo CD のAPI サーバにアクセス
 
+## argocd-appをデプロイ
+
+```bash
+cd applications
+k apply -f argocd-application.yaml -n argocd
+```
