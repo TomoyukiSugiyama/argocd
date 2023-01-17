@@ -2,7 +2,10 @@
 ## argocd のインストール
 `helmfile` を利用するため、事前にインストール
 
-argocd に移動して、`helmfile apply`
+```bash
+cd argocd
+helmfile apply
+```
 
 argocd の namespace が作成され、各種サービスが展開される。
 
